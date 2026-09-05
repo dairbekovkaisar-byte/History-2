@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>История Казахстана — подготовка к экзамену</title>
+  <meta name="description" content="HK6002 History of Kazakhstan exam-focused study dashboard" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">KZ</div>
+        <div><div class="brand-title" id="brandTitle">История Казахстана</div><div class="brand-sub" id="brandSub">HK6002</div></div>
+        <button class="sidebar-close" id="sidebarClose" aria-label="Close menu" type="button">✕</button>
+      </div>
+      <nav id="nav" class="nav"></nav>
+      <div class="sidebar-card">
+        <div class="eyebrow" id="sidebarEyebrow">Фокус на экзамен</div>
+        <strong id="sidebarStrong">Изучай → Практикуй → Объясняй</strong>
+        <p id="sidebarBody">Сайт построен по темам учебной программы и формату экзамена.</p>
+      </div>
+      <button class="pill sidebar-theme mobile-only" id="themeToggleMobile" type="button">◐ Оформление</button>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="menuBtn" aria-label="Open menu">☰</button>
+        <div class="search-wrap"><span>⌕</span><input id="globalSearch" placeholder="Поиск по темам, людям и датам…" /></div>
+        <div class="top-actions">
+          <div class="lang-switch" aria-label="Language switcher">
+            <button class="lang-btn" id="langRu" type="button">RU</button>
+            <button class="lang-btn" id="langKk" type="button">ҚАЗ</button>
+            <button class="lang-btn" id="langEn" type="button">EN</button>
+          </div>
+          <button class="pill desktop-only" id="themeToggle">◐ Оформление</button>
+          <div class="avatar desktop-only">ST</div>
+        </div>
+      </header>
+      <section id="view" class="view"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

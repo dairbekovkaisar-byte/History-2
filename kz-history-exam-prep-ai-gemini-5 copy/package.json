@@ -1,0 +1,12 @@
+{
+  "name": "hk6002-history-exam-prep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "History of Kazakhstan exam preparation with secure Gemini assessment",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
