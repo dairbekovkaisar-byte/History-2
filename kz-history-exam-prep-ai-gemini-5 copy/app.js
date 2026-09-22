@@ -1096,6 +1096,41 @@ const courseContent = {
 }
 };
 
+const weeklyPracticeBanks = {
+  4: [
+    { q: 'In what year did the kurultai take place where Temujin was proclaimed Genghis Khan?', options: ['1201', '1204', '1206', '1211'], correct: '1206', exp: 'Temujin was proclaimed Genghis Khan at the kurultai on the Onon River in 1206.' },
+    { q: 'Which event in 1218 served as a pretext for the Mongol invasion of Central Asia and Kazakhstan?', options: ['The "Otrar Catastrophe" (destruction of the Mongol caravan)', 'The Battle of the Kalka River', 'The capture of the city of Balasagun', 'The formation of the Golden Horde'], correct: 'The "Otrar Catastrophe" (destruction of the Mongol caravan)', exp: 'The governor of Otrar, Gayir Khan, ordered a Mongol trade caravan killed in 1218, giving Genghis Khan his pretext for war.' },
+    { q: 'Which city in Zhetysu (Semirechye) surrendered to the Mongols without a fight and was named "Gobalyk" (Good/Docile City) by them?', options: ['Sygnaq', 'Ispidjab', 'Balasagun', 'Otrar'], correct: 'Balasagun', exp: 'Balasagun opened its gates without resistance, earning it the Mongol name "Gobalyk".' },
+    { q: "How many months did the heroic defense of the city of Otrar against Genghis Khan's troops last?", options: ['1 month', '3 months', '6 months', '1 year'], correct: '6 months', exp: 'Otrar, defended by Gayir Khan, held out under siege for roughly six months before falling.' },
+    { q: 'Who is the founder of the Golden Horde?', options: ['Genghis Khan', 'Batu Khan', 'Tokhtamysh', 'Uzbeg Khan'], correct: 'Batu Khan', exp: "Batu Khan, Jochi's son, founded the Golden Horde (Ulus of Jochi) after the western Mongol campaigns." },
+    { q: 'Under which ruler was Islam declared the state religion of the Golden Horde?', options: ['Batu Khan', 'Berke Khan', 'Uzbeg Khan', 'Jani Beg'], correct: 'Uzbeg Khan', exp: 'Khan Uzbeg made Islam the official state religion of the Golden Horde in the early 14th century.' },
+    { q: 'What was the name of the first capital of the Golden Horde, founded in the Lower Volga region?', options: ['Sarai-Batu', 'Sarai-Berke', 'Saraichik', 'Sygnaq'], correct: 'Sarai-Batu', exp: 'Sarai-Batu, founded by Batu Khan, was the first capital of the Golden Horde.' },
+    { q: 'Which historical event in 1380 marked the beginning of the political weakening of the Golden Horde?', options: ['The Battle of the Kalka River', 'The Battle of Kulikovo', 'The Battle of the Mire (Batpak Battle)', "Emir Timur's campaign"], correct: 'The Battle of Kulikovo', exp: "The 1380 defeat at Kulikovo against the Rus principalities damaged the Golden Horde's authority and prestige." },
+    { q: 'What was the tax collected from nomadic cattle herders in favor of the khan called in the Golden Horde?', options: ['Kharaj', 'Tagar', 'Zyaket / Kopchur', 'Baj'], correct: 'Zyaket / Kopchur', exp: "Kopchur (also seen as zyaket) was the levy collected from nomadic pastoralists' livestock." },
+    { q: 'In which territory was the Ak-Orda state located?', options: ['Transoxiana (Maverannahr)', 'Eastern Desht-i Qipchaq', 'Zhetysu (Semirechye)', 'Volga region'], correct: 'Eastern Desht-i Qipchaq', exp: 'The White Horde (Ak-Orda) occupied the eastern part of the Desht-i Qipchaq steppe.' },
+    { q: 'Who is considered the founder of the White Horde (Ak-Orda)?', options: ['Shaybani', 'Tuqa-Timur', 'Orda Ichen (Orda-Ejen)', 'Urus Khan'], correct: 'Orda Ichen (Orda-Ejen)', exp: "Orda Ichen (Orda-Ejen), Jochi's elder son, is regarded as the founder of the White Horde." },
+    { q: 'The capital of the Ak-Orda state was the city of:', options: ['Sygnaq', 'Otrar', 'Saraichik', 'Almalyk'], correct: 'Sygnaq', exp: 'Sygnaq on the Syr Darya served as the capital of Ak-Orda.' },
+    { q: 'Under which khan in the second half of the 14th century did Ak-Orda become a completely independent state from the Golden Horde?', options: ['Mubarak Khwaja', 'Erzen Khan', 'Urus Khan', 'Baraq Khan'], correct: 'Urus Khan', exp: 'Urus Khan asserted full independence of Ak-Orda from the Golden Horde in the later 14th century.' },
+    { q: 'What role did Ak-Orda play in the history of Kazakhstan?', options: ['It spread Buddhism in the steppe', 'It became the basis for the formation of the Kazakh Khanate and the Kazakh ethnicity', 'It united the entire territory of Eurasia', 'It destroyed the nomadic way of life'], correct: 'It became the basis for the formation of the Kazakh Khanate and the Kazakh ethnicity', exp: "Ak-Orda's political traditions and population fed directly into the later Kazakh Khanate and ethnos." },
+    { q: 'Which territories were included in the Chagatai Ulus after the division of the Mongol Empire?', options: ['The Volga region and Northern Caucasus', 'Southern Kazakhstan, Zhetysu, and Central Asia', 'Eastern Desht-i Qipchaq', 'Iran and Transcaucasia'], correct: 'Southern Kazakhstan, Zhetysu, and Central Asia', exp: 'Chagatai, son of Genghis Khan, received an ulus covering Southern Kazakhstan, Zhetysu, and Central Asia.' },
+    { q: 'The main headquarters (capital) of the Chagatai Ulus was the city of:', options: ['Samarkand', 'Tashkent', 'Almalyk', 'Sygnaq'], correct: 'Almalyk', exp: "Almalyk in Zhetysu was the Chagatai Ulus's main seat of power." },
+    { q: 'Into which two independent states did the Chagatai Ulus split in the mid-14th century?', options: ['Moghulistan and Transoxiana (Maverannahr)', 'Ak-Orda and Kok-Orda', 'Nogai Horde and Khanate of Sibir', 'Golden Horde and Ilkhanate'], correct: 'Moghulistan and Transoxiana (Maverannahr)', exp: 'The Chagatai Ulus fractured into the eastern Moghulistan and the western Transoxiana (Maverannahr).' },
+    { q: 'What was the main reason for the collapse of the Chagatai Ulus?', options: ['The Arab invasion', 'Peasant uprisings', 'Internecine wars and the weakening of central power', 'Climate change'], correct: 'Internecine wars and the weakening of central power', exp: 'Constant internal feuding among Chagatayid princes eroded central authority until the ulus split apart.' },
+    { q: 'After the collapse of which state was the Nogai Horde formed?', options: ['The Golden Horde', 'The Chagatai Ulus', 'Moghulistan', 'The Timurid Empire'], correct: 'The Golden Horde', exp: 'The Nogai Horde emerged in the 15th century as the Golden Horde fragmented.' },
+    { q: 'Who was the de facto founder and first ruler of the Nogai Horde?', options: ['Urus Khan', 'Edigu (Yedige)', 'Abulkhair', 'Kasym Khan'], correct: 'Edigu (Yedige)', exp: 'The powerful emir Edigu (Yedige) laid the foundations of the Nogai Horde in all but name.' },
+    { q: 'Which Turkic tribe formed the ethnic core of the Nogai Horde?', options: ['Kipchaks', 'Wusuns (Uysuns)', 'Manghyts', 'Argyns'], correct: 'Manghyts', exp: 'The Manghyt tribe formed the ethnic backbone of the Nogai Horde.' },
+    { q: 'The capital of the Nogai Horde was a city located in the lower reaches of the Ural River:', options: ['Sarai-Batu', 'Sygnaq', 'Saraichik', 'Astrakhan'], correct: 'Saraichik', exp: "Saraichik, on the lower Ural (Zhaiyk) River, was the Nogai Horde's capital." },
+    { q: 'In what year was the state of Moghulistan formed?', options: ['1227', '1348', '1428', '1465'], correct: '1348', exp: 'Moghulistan split off from the Chagatai Ulus in 1348.' },
+    { q: 'Who became the first khan of the state of Moghulistan?', options: ['Emir Timur', 'Ilyas Khwaja', 'Tughlugh Timur', 'Esen Buqa'], correct: 'Tughlugh Timur', exp: 'Tughlugh Timur became the first khan of Moghulistan in 1348.' },
+    { q: 'Which region was the political and administrative center of Moghulistan?', options: ['Zhetysu (Semirechye)', 'Transoxiana (Maverannahr)', 'Mangystau', 'Saryarka'], correct: 'Zhetysu (Semirechye)', exp: "Zhetysu remained Moghulistan's political and administrative heartland." },
+    { q: 'How did the 1365 battle near Tashkent between the forces of Moghulistan and Emir Timur go down in history?', options: ['The Battle of Anyrakay', 'The Battle of Orbulak', 'The Battle of the Mire (Batpak Battle / Mud Battle)', 'The Battle of Kulikovo'], correct: 'The Battle of the Mire (Batpak Battle / Mud Battle)', exp: 'Heavy rain turned the battlefield to mud, giving the 1365 clash its name, the "Battle of the Mire".' },
+    { q: 'During which years did the Khanate of Abulkhair exist?', options: ['1348–1405', '1428–1468', '1465–1511', '1500–1598'], correct: '1428–1468', exp: 'The Khanate of Abulkhair (the nomadic Uzbeks) existed from 1428 to 1468.' },
+    { q: 'Which city became the definitive capital of the Khanate of Abulkhair from 1446?', options: ['Tura', 'Orda-Bazar', 'Sygnaq', 'Saraichik'], correct: 'Sygnaq', exp: 'After 1446, Abulkhair Khan made Sygnaq his permanent capital.' },
+    { q: "Defeat by which tribes in 1457 undermined Abulkhair Khan's authority in the steppe?", options: ['The Oirats', 'The Dzungars', 'The Nogais', 'The Timurids'], correct: 'The Oirats', exp: "A crushing 1457 defeat by the Oirats near Sygnaq badly weakened Abulkhair Khan's standing." },
+    { q: 'What major historical event was a direct consequence of the political crisis in the Khanate of Abulkhair?', options: ['The formation of the Golden Horde', 'The adoption of Islam in the steppe', 'The migration of sultans Kerey and Janybek and the formation of the Kazakh Khanate', 'The conquest of Central Asia by the Arabs'], correct: 'The migration of sultans Kerey and Janybek and the formation of the Kazakh Khanate', exp: 'The crisis drove sultans Kerey and Janybek to migrate to Moghulistan, laying the ground for the Kazakh Khanate.' }
+  ]
+};
+
 const uiText = {
   ru: {
     documentTitle: 'История Казахстана — подготовка к экзамену',
@@ -1444,6 +1479,10 @@ function distractors(topicId, field){
   return shuffle([...new Set(values)]).slice(0,3);
 }
 function buildPracticeBankForTopic(topicId){
+  const staticBank=weeklyPracticeBanks[topicId];
+  if(staticBank && staticBank.length){
+    return staticBank.map(item=>({topic:topicId,q:item.q,correct:item.correct,options:item.options,exp:item.exp}));
+  }
   const topic=topics().find(x=>x.id===topicId) || topics()[0];
   const items=[];
   const add=(q,correct,field,exp=topic.answer)=>{
